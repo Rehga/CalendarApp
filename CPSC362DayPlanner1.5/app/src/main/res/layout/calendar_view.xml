@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list_2">
+
+    <!-- CalendarView where the user can pick a date -->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <!-- LinearLayout to contain notes -->
+    <LinearLayout
+        android:id="@+id/linearLayoutNotesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendarView"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!-- Dynamic TextViews for notes will be added here -->
+    </LinearLayout>
+
+</RelativeLayout>
