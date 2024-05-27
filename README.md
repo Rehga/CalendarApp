@@ -1,2 +1,2 @@
-# CalendarApp
-Simple calendar app that allows for tracking of activies
+# MakeTime
+Simple calendar app that allows users to input and track their activities without needing physical day planners or calendars.
